@@ -1,0 +1,48 @@
+.container{
+    width: 950px;
+    background-color: silver;
+    margin: 0px auto;
+    /* Don't touch the code above this line. */
+    padding: 20px;
+}
+.top-nav {
+    height: 150px;
+    background-color: green;
+    /* Don't touch the code above this line. */
+    margin-bottom: 20px;
+    padding-bottom: 1px;
+}
+.side-nav {
+    height: 300px;
+    width: 200px;
+    background-color: blue;
+    /* Don't touch the code above this line. */
+    padding-right: 3px;
+    margin-right: 19px;
+}
+.main {
+    height: 400px;
+    width: 700px;
+    background-color: red;
+    /* Don't touch the code above this line. */
+    padding: 15px 6px 8px 18px;
+    vertical-align: top;
+}
+.sub-content {
+    height: 200px;
+    width: 210px;
+    background-color: yellow;
+    /* Don't touch the code above this line. */
+    margin-right: 11px;
+}
+#advertisement {
+    height: 120px;
+    width: 660px;
+    background-color: purple;
+    /* Don't touch the code above this line. */
+    margin: 26px 0;
+}
+
+.side-nav, .main, .sub-content {
+    display: inline-block;
+}
